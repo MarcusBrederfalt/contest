@@ -3,7 +3,7 @@
 import { defineStore } from "pinia";
 import { useUserStore } from "~~/store/user";
 
-const GET_URL = "https://localhost:5001/api/v1/Sport";
+const GET_URL = "";
 
 export const sportStore = defineStore("sport", {
   state: () => ({

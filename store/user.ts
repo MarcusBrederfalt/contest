@@ -30,7 +30,7 @@ export const useUserStore = defineStore("user", {
 
   actions: {
     async logIn(email, password) {
-      const res = await fetch("https://localhost:5001/api/v1/Identity/login", {
+      const res = await fetch(/* insert url */, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
