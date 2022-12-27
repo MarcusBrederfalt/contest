@@ -51,7 +51,7 @@
 <script>
 import { useUserStore } from "~~/store/user";
 import { sportStore } from "~~/store/sport";
-const URL = "https://localhost:5001/api/v1/Sport/";
+const URL = /* insert url */;
 
 definePageMeta({
   middleware: "auth",
